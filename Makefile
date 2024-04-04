@@ -21,7 +21,7 @@ build: $(SRC)
 
 # # Build and run tests
 # test:
-# 	$(CC) $(CFLAGS) test_cases.cpp -o test_runner
+#	$(CC) $(CFLAGS) test_cases.cpp -o test_runner
 # 	./test_runner
 
 # Clean rule
