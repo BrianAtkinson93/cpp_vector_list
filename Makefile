@@ -10,7 +10,7 @@ CFLAGS = -std=c++11
 SRC = main.cpp
 
 # Define the output executable
-OUT = main
+OUT = vector_list
 
 # The first rule is the default when make is called without args
 all: build run
