@@ -1,7 +1,7 @@
 # Created by Brian Atkinson
 
 # Define Compiler
-CC = G++
+CC = g++
 
 # Define Compiler Flags
 CFLAGS = -std=c++11
