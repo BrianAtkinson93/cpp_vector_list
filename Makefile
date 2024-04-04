@@ -19,11 +19,6 @@ all: build
 build: $(SRC)
 	$(CC) $(CFLAGS) $(SRC) -o $(OUT)
 
-# # Build and run tests
-# test:
-#	$(CC) $(CFLAGS) test_cases.cpp -o test_runner
-# 	./test_runner
-
 # Clean rule
 clean:
 	rm -f $(OUT)
