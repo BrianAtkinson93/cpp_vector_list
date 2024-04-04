@@ -13,15 +13,16 @@ SRC = main.cpp
 OUT = vector_list
 
 # The first rule is the default when make is called without args
-all: build run
+all: build
 
 # Rule to build the executable
 build: $(SRC)
 	$(CC) $(CFLAGS) $(SRC) -o $(OUT)
 
-# Rule to run
-run:
-	./$(OUT)
+# # Build and run tests
+# test:
+# 	$(CC) $(CFLAGS) test_cases.cpp -o test_runner
+# 	./test_runner
 
 # Clean rule
 clean:
